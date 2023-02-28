@@ -333,6 +333,8 @@ button {
 }
 
 .color {
+  width: 200px;
+  height: 110px;
   padding: 1rem 2rem;
   cursor: pointer;
   font-size: 1rem;
@@ -356,4 +358,12 @@ button {
   text-transform: uppercase;
   font-size: 0.85rem;
   margin-top: 0.5rem;
+}
+.color-container {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

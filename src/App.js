@@ -39,7 +39,7 @@ const App = () => {
           </button>
         </form>
       </section>
-      <section>
+      <section className="color-container">
         {list.map((color, index) => {
           return <Color key={index} {...color} index={index} />;
         })}
